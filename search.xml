@@ -4,38 +4,23 @@
   
     
     <entry>
-      <title></title>
-      <link href="/2022/03/17/second/"/>
-      <url>/2022/03/17/second/</url>
+      <title>设计模式</title>
+      <link href="/2022/01/10/ruan-jia-jia-gou/she-ji-mo-shi/"/>
+      <url>/2022/01/10/ruan-jia-jia-gou/she-ji-mo-shi/</url>
       
-        <content type="html"><![CDATA[<p>阿法狗发</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>我的title</title>
-      <link href="/2020/01/14/first/"/>
-      <url>/2020/01/14/first/</url>
-      
-        <content type="html"><![CDATA[<p>conding</p>]]></content>
+        <content type="html"><![CDATA[<p>设计模式分为三种类型，共23种。</p><p>创建型模式：单例模式、抽象工厂模式、原型模式、建造者模式、工厂模式</p><p>结构型模式：适配器模式、桥接模式、装饰者模式、组合模式、外观模式、享元模式、代理模式</p><p>行为型模式：模板方法模式、命令模式、访问者模式、迭代器模式、观察者模式、中介者模式、备忘录模式、解释器模式、状态模式、策略模式、职责链模式</p><h2 id="创建型模式："><a href="#创建型模式：" class="headerlink" title="创建型模式："></a>创建型模式：</h2><p>每种模式展开写：</p><h2 id="结构型模式："><a href="#结构型模式：" class="headerlink" title="结构型模式："></a>结构型模式：</h2><p>每种模式展开写：</p><h2 id="行为型模式："><a href="#行为型模式：" class="headerlink" title="行为型模式："></a>行为型模式：</h2><p>每种模式展开写：</p>]]></content>
       
       
       <categories>
           
-          <category> 随笔 </category>
+          <category> 软件架构 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 博客 </tag>
-            
-            <tag> 点子 </tag>
+            <tag> 设计模式 </tag>
             
         </tags>
       
@@ -44,23 +29,131 @@
     
     
     <entry>
-      <title>5W2H | 测试博客一</title>
-      <link href="/2020/01/14/zero/"/>
-      <url>/2020/01/14/zero/</url>
+      <title>推荐系统的特征工程</title>
+      <link href="/2022/01/07/shen-du-xue-xi/tui-jian-xi-tong-de-te-zheng-gong-cheng/"/>
+      <url>/2022/01/07/shen-du-xue-xi/tui-jian-xi-tong-de-te-zheng-gong-cheng/</url>
       
-        <content type="html"><![CDATA[<h2 id="When？什么时候开始写的？"><a href="#When？什么时候开始写的？" class="headerlink" title="When？什么时候开始写的？"></a>When？什么时候开始写的？</h2>]]></content>
+        <content type="html"><![CDATA[<h2 id="一、构建推荐系统特征工程的原则"><a href="#一、构建推荐系统特征工程的原则" class="headerlink" title="一、构建推荐系统特征工程的原则"></a>一、构建推荐系统特征工程的原则</h2><p>在推荐系统中，特征的本质其实是对某个行为过程相关信息的抽象表达。为了构建好一个“好的特征工程”，需要依次解决三个问题：</p><p>1、构建特征工程应该遵循的基本原则是什么？</p><p>2、有哪些常用的特征类别？</p><p>3、如何在原始特征的基础上进行特征处理，生成可供推荐系统训练和推断用的特征向量？</p><h2 id="二、推荐系统中的常用特征"><a href="#二、推荐系统中的常用特征" class="headerlink" title="二、推荐系统中的常用特征"></a>二、推荐系统中的常用特征</h2><p>待完善内容！</p><h2 id="三、常用的特征处理方法"><a href="#三、常用的特征处理方法" class="headerlink" title="三、常用的特征处理方法"></a>三、常用的特征处理方法</h2><p>待完善内容！</p><h2 id="四、特征工程与业务理解"><a href="#四、特征工程与业务理解" class="headerlink" title="四、特征工程与业务理解"></a>四、特征工程与业务理解</h2><p>待完善内容！</p>]]></content>
       
       
       <categories>
           
-          <category> 随笔 </category>
+          <category> 深度学习 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 博客 </tag>
+            <tag> 推荐系统 </tag>
+            
+            <tag> 特征工程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>矩阵分解算法-协同过滤的进化</title>
+      <link href="/2021/12/07/shen-du-xue-xi/ju-zhen-fen-jie-suan-fa-xie-tong-guo-lu-de-jin-hua/"/>
+      <url>/2021/12/07/shen-du-xue-xi/ju-zhen-fen-jie-suan-fa-xie-tong-guo-lu-de-jin-hua/</url>
+      
+        <content type="html"><![CDATA[<h2 id="一、矩阵分解算法的原理"><a href="#一、矩阵分解算法的原理" class="headerlink" title="一、矩阵分解算法的原理"></a>一、矩阵分解算法的原理</h2><p>推荐系统领域最经典的模型之一—-协同过滤，针对协同过滤的头部效应较明显、泛化能力较弱的问题，矩阵分解算法被提出。矩阵分解在协同过滤算法中“共现矩阵”的基础上，加入了隐向量的概念，加强了模型处理稀疏矩阵的能力，针对性地解决了协同过滤存在的主要问题。</p><h2 id="二、矩阵分解的求解过程"><a href="#二、矩阵分解的求解过程" class="headerlink" title="二、矩阵分解的求解过程"></a>二、矩阵分解的求解过程</h2><p>待完善内容！</p><h2 id="三、矩阵分解的优缺点"><a href="#三、矩阵分解的优缺点" class="headerlink" title="三、矩阵分解的优缺点"></a>三、矩阵分解的优缺点</h2><p>待完善内容！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 深度学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 矩阵分解 </tag>
+            
+            <tag> 协同过滤 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Wide&amp;Deep模型-记忆能力和泛化能力的综合</title>
+      <link href="/2021/12/07/shen-du-xue-xi/wide-deep-mo-xing-ji-yi-neng-li-he-fan-hua-neng-li-de-zong-he/"/>
+      <url>/2021/12/07/shen-du-xue-xi/wide-deep-mo-xing-ji-yi-neng-li-he-fan-hua-neng-li-de-zong-he/</url>
+      
+        <content type="html"><![CDATA[<h2 id="一、模型的记忆能力与泛化能力"><a href="#一、模型的记忆能力与泛化能力" class="headerlink" title="一、模型的记忆能力与泛化能力"></a>一、模型的记忆能力与泛化能力</h2><p>谷歌2016年提出的Wide&amp;Deep模型,主要思路正如其名，是由单层的Wide部分和多层的Deep部分组成的混合模型。</p><h2 id="二、Wide-amp-Deep模型的结构"><a href="#二、Wide-amp-Deep模型的结构" class="headerlink" title="二、Wide&amp;Deep模型的结构"></a>二、Wide&amp;Deep模型的结构</h2><p>待完善内容！</p><h2 id="三、Wide-amp-Deep模型的进化"><a href="#三、Wide-amp-Deep模型的进化" class="headerlink" title="三、Wide&amp;Deep模型的进化"></a>三、Wide&amp;Deep模型的进化</h2><p>Deep&amp;Cross模型</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 深度学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Wide&amp;Deep模型 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>深度学习推荐系统的工程实现</title>
+      <link href="/2021/12/06/shen-du-xue-xi/shen-du-xue-xi-tui-jian-xi-tong-de-gong-cheng-shi-xian/"/>
+      <url>/2021/12/06/shen-du-xue-xi/shen-du-xue-xi-tui-jian-xi-tong-de-gong-cheng-shi-xian/</url>
+      
+        <content type="html"><![CDATA[<h2 id="一、推荐系统的数据流"><a href="#一、推荐系统的数据流" class="headerlink" title="一、推荐系统的数据流"></a>一、推荐系统的数据流</h2><p>目前推荐系统全面进入大数据时代，动则TB乃至PB级别的训练数据，让推荐系统的数据流必须和大数据处理与存储的基础设施密切相关。大数据处理平台主要有批处理、流计算、Lambda、Kappa4种架构。</p><h2 id="二、推荐模型离线训练之Spark-MLib"><a href="#二、推荐模型离线训练之Spark-MLib" class="headerlink" title="二、推荐模型离线训练之Spark MLib"></a>二、推荐模型离线训练之Spark MLib</h2><p>待完善内容！</p><h2 id="三、推荐模型离线训练之Parameter-Server"><a href="#三、推荐模型离线训练之Parameter-Server" class="headerlink" title="三、推荐模型离线训练之Parameter Server"></a>三、推荐模型离线训练之Parameter Server</h2><p>待完善内容！</p><h2 id="四、推荐模型离线训练之Tensorflow"><a href="#四、推荐模型离线训练之Tensorflow" class="headerlink" title="四、推荐模型离线训练之Tensorflow"></a>四、推荐模型离线训练之Tensorflow</h2><p>待完善内容！</p><h2 id="五、深度学习推荐模型的上线部署"><a href="#五、深度学习推荐模型的上线部署" class="headerlink" title="五、深度学习推荐模型的上线部署"></a>五、深度学习推荐模型的上线部署</h2><p>待完善内容！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 深度学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 推荐系统 </tag>
+            
+            <tag> 深度学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>c3p0 配置连接MySQL异常</title>
+      <link href="/2021/10/14/cai-guo-de-keng/c3p0-pei-zhi-lian-jie-mysql-yi-chang/"/>
+      <url>/2021/10/14/cai-guo-de-keng/c3p0-pei-zhi-lian-jie-mysql-yi-chang/</url>
+      
+        <content type="html"><![CDATA[<h3 id="在Idea上配置c3p0连接MySQL时报如下错误："><a href="#在Idea上配置c3p0连接MySQL时报如下错误：" class="headerlink" title="在Idea上配置c3p0连接MySQL时报如下错误："></a><strong>在Idea上配置c3p0连接MySQL时报如下错误：</strong></h3><p>警告: com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@4e745ea8 – Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (2). Last acquisition attempt exception:<br>com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.</p><p>java.sql.SQLException: Connections could not be acquired from the underlying database!</p><p>Caused by: com.mchange.v2.resourcepool.CannotAcquireResourceException: A ResourcePool could not acquire a resource from its primary factory or source.</p><h4 id="使用的配置文件"><a href="#使用的配置文件" class="headerlink" title="使用的配置文件:"></a>使用的配置文件:</h4><h6 id="spring的applicationContext-xml："><a href="#spring的applicationContext-xml：" class="headerlink" title="spring的applicationContext.xml："></a>spring的applicationContext.xml：</h6><pre class="line-numbers language-xml"><code class="language-xml"><span class="token prolog">&lt;?xml version="1.0" encoding="UTF-8"?></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>beans</span> <span class="token attr-name">xmlns</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>http://www.springframework.org/schema/beans<span class="token punctuation">"</span></span>       <span class="token attr-name"><span class="token namespace">xmlns:</span>xsi</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>http://www.w3.org/2001/XMLSchema-instance<span class="token punctuation">"</span></span>       <span class="token attr-name"><span class="token namespace">xmlns:</span>context</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>http://www.springframework.org/schema/context<span class="token punctuation">"</span></span>       <span class="token attr-name"><span class="token namespace">xsi:</span>schemaLocation</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>http://www.springframework.org/schema/beans       http://www.springframework.org/schema/beans/spring-beans-4.2.xsd       http://www.springframework.org/schema/context       http://www.springframework.org/schema/context/spring-context-4.2.xsd<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token namespace">context:</span>property-placeholder</span> <span class="token attr-name">location</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>classpath:jdbc.properties<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>bean</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>dataSource<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>com.mchange.v2.c3p0.ComboPooledDataSource<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>        <span class="token comment" spellcheck="true">&lt;!--配置连接池属性--></span>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>property</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>driverClass<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>${jdbc.driver}<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>property</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>jdbcUrl<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>${jdbc.url}<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>property</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>user<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>${jdbc.username}<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>property</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>password<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>${jdbc.password}<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>        <span class="token comment" spellcheck="true">&lt;!--c3p0连接池的私有属性--></span>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>property</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>maxPoolSize<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>30<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>property</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>minPoolSize<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>10<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>        <span class="token comment" spellcheck="true">&lt;!--关闭连接后不自动commit--></span>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>property</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>autoCommitOnClose<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>false<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>        <span class="token comment" spellcheck="true">&lt;!--获取连接超时时间--></span>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>property</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>checkoutTimeout<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>10000<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>        <span class="token comment" spellcheck="true">&lt;!--设置获取连接失败重试次数--></span>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>property</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>acquireRetryAttempts<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>2<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>bean</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>beans</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h6 id="jdbc-properties文件"><a href="#jdbc-properties文件" class="headerlink" title="jdbc.properties文件"></a>jdbc.properties文件</h6><pre class="line-numbers language-xml"><code class="language-xml">jdbc.driver=com.mysql.jdbc.Driverjdbc.url=jdbc:mysql://localhost:3306/xiaoyanger?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=falsejdbc.username=rootjdbc.password=1234<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><h6 id="jdbc-properties文件-1"><a href="#jdbc-properties文件-1" class="headerlink" title="jdbc.properties文件"></a>jdbc.properties文件</h6><pre class="line-numbers language-xml"><code class="language-xml"><span class="token comment" spellcheck="true">&lt;!--数据库--></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">></span></span>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">></span></span>mysql<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">></span></span>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">></span></span>mysql-connector-java<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">></span></span>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">></span></span>5.1.37<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">></span></span>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">></span></span>c3p0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">></span></span>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">></span></span>c3p0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">></span></span>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">></span></span>0.9.1.2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h6 id="pom文件中关于mysql的依赖："><a href="#pom文件中关于mysql的依赖：" class="headerlink" title="pom文件中关于mysql的依赖："></a>pom文件中关于mysql的依赖：</h6><pre class="line-numbers language-xml"><code class="language-xml"><span class="token comment" spellcheck="true">&lt;!--数据库--></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">></span></span>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">></span></span>mysql<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">></span></span>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">></span></span>mysql-connector-java<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">></span></span>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">></span></span>5.1.37<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">></span></span>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">></span></span>c3p0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">></span></span>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">></span></span>c3p0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">></span></span>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">></span></span>0.9.1.2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h6 id="Main-java代码："><a href="#Main-java代码：" class="headerlink" title="Main.java代码："></a>Main.java代码：</h6><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">import</span> javax<span class="token punctuation">.</span>sql<span class="token punctuation">.</span>DataSource<span class="token punctuation">;</span><span class="token keyword">import</span> java<span class="token punctuation">.</span>sql<span class="token punctuation">.</span>SQLException<span class="token punctuation">;</span><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Main</span> <span class="token punctuation">{</span>    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>        ApplicationContext ioc<span class="token operator">=</span><span class="token keyword">new</span> <span class="token class-name">ClassPathXmlApplicationContext</span><span class="token punctuation">(</span><span class="token string">"META-INF/applicationContext.xml"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        DataSource bean<span class="token operator">=</span> <span class="token punctuation">(</span>DataSource<span class="token punctuation">)</span> ioc<span class="token punctuation">.</span><span class="token function">getBean</span><span class="token punctuation">(</span><span class="token string">"dataSource"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token keyword">try</span> <span class="token punctuation">{</span>            System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>bean<span class="token punctuation">.</span><span class="token function">getConnection</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">SQLException</span> e<span class="token punctuation">)</span> <span class="token punctuation">{</span>            e<span class="token punctuation">.</span><span class="token function">printStackTrace</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token punctuation">}</span>        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"容器启动完成。。。"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h3 id="排查："><a href="#排查：" class="headerlink" title="排查："></a>排查：</h3><p>1，驱动配置有误：driver=com.mysql.jdbc.Driver<br>2，数据库连接地址有误：url=jdbc:mysql://localhost:3306/test?3useUnicode=true&amp;characterEncoding=utf8<br>3，密码或帐号有误：username=root password=root</p><p>(上面三条一般都写在配置文件中，如果是因为修改了配置文件后导致该错误，建议重写一遍配置文件，因为有时候开发工具就是很蛋疼，表面没有错误，程序运行却提示报错)</p><p>4，数据库未启动或无权访问</p><p>5，项目未引入对应的驱动jar包mysql-connector-java-5.1.6-bin.jar</p><p>6,mysql root没有远程访问的权限，需要增加权限，增加权限的步骤如下：<br>进入mysql数据库：<br>grant all privileges on <em>.</em> to ‘root’@’%’ identified by ‘root’ with grant option;<br>flush privileges;</p><p>7.在普通java项目中使用 mybatis+C3p0+spring时也遇见上述问题。<br>问题原因是：在xml配置文件中显示声明了自动装载 <beans default-autowire="byName"> 几经折腾，把自动装载设置去掉，就没有问题了，应该使用默认的 byType。</beans></p><p><strong>经过以上方式排查均未解决问题，还是报错！！！</strong></p><h3 id="解决该问题办法："><a href="#解决该问题办法：" class="headerlink" title="解决该问题办法："></a><strong>解决该问题办法：</strong></h3><h6 id="修改pom文件中mysql驱动的版本，改为8-0-11："><a href="#修改pom文件中mysql驱动的版本，改为8-0-11：" class="headerlink" title="修改pom文件中mysql驱动的版本，改为8.0.11："></a>修改pom文件中mysql驱动的版本，改为8.0.11：</h6><pre class="line-numbers language-xml"><code class="language-xml"><span class="token comment" spellcheck="true">&lt;!--数据库--></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">></span></span>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">></span></span>mysql<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">></span></span>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">></span></span>mysql-connector-java<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">></span></span>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">></span></span>8.0.11<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">></span></span>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">></span></span>c3p0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">></span></span>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">></span></span>c3p0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">></span></span>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">></span></span>0.9.1.2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>将jdbc.properties的jdbc.driver=com.mysql.jdbc.Driver改为jdbc.driver=com.mysql.cj.jdbc.Driver</p><p><strong>再次运行发现报如下错误</strong></p><p>java.sql.SQLException: The server time zone value ‘ÖÐ¹ú±ê×¼Ê±¼ä’ is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver</p><p>很明显是时区的问题，证明已经连接上了MySQL</p><h3 id="解决时区问题"><a href="#解决时区问题" class="headerlink" title="解决时区问题"></a><strong>解决时区问题</strong></h3><pre><code>1、在连接url后加serverTimezone=UTC(UTC是世界均衡时间)，即修改jdbc.properties的jdbc.url为：jdbc.url=jdbc:mysql://localhost:3306/xiaoyanger?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;serverTimezone=UTC</code></pre><pre><code>2、进入mysql命令行模式执行语句：set global time_zone=&#39;+8:00&#39;</code></pre><p>我采用的是方法1，再次执行，无报错，问题解决。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 踩过的坑 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> c3p0 </tag>
+            
+            <tag> MySQL </tag>
             
         </tags>
       
