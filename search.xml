@@ -56,31 +56,6 @@
     
     
     <entry>
-      <title>Wide&amp;Deep模型-记忆能力和泛化能力的综合</title>
-      <link href="/2021/12/07/shen-du-xue-xi/wide-deep-mo-xing-ji-yi-neng-li-he-fan-hua-neng-li-de-zong-he/"/>
-      <url>/2021/12/07/shen-du-xue-xi/wide-deep-mo-xing-ji-yi-neng-li-he-fan-hua-neng-li-de-zong-he/</url>
-      
-        <content type="html"><![CDATA[<h2 id="一、模型的记忆能力与泛化能力"><a href="#一、模型的记忆能力与泛化能力" class="headerlink" title="一、模型的记忆能力与泛化能力"></a>一、模型的记忆能力与泛化能力</h2><p>谷歌2016年提出的Wide&amp;Deep模型,主要思路正如其名，是由单层的Wide部分和多层的Deep部分组成的混合模型。</p><h2 id="二、Wide-amp-Deep模型的结构"><a href="#二、Wide-amp-Deep模型的结构" class="headerlink" title="二、Wide&amp;Deep模型的结构"></a>二、Wide&amp;Deep模型的结构</h2><p>待完善内容！</p><h2 id="三、Wide-amp-Deep模型的进化"><a href="#三、Wide-amp-Deep模型的进化" class="headerlink" title="三、Wide&amp;Deep模型的进化"></a>三、Wide&amp;Deep模型的进化</h2><p>Deep&amp;Cross模型</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 深度学习 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Wide&amp;Deep模型 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>矩阵分解算法-协同过滤的进化</title>
       <link href="/2021/12/07/shen-du-xue-xi/ju-zhen-fen-jie-suan-fa-xie-tong-guo-lu-de-jin-hua/"/>
       <url>/2021/12/07/shen-du-xue-xi/ju-zhen-fen-jie-suan-fa-xie-tong-guo-lu-de-jin-hua/</url>
@@ -100,6 +75,31 @@
             <tag> 矩阵分解 </tag>
             
             <tag> 协同过滤 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Wide&amp;Deep模型-记忆能力和泛化能力的综合</title>
+      <link href="/2021/12/07/shen-du-xue-xi/wide-deep-mo-xing-ji-yi-neng-li-he-fan-hua-neng-li-de-zong-he/"/>
+      <url>/2021/12/07/shen-du-xue-xi/wide-deep-mo-xing-ji-yi-neng-li-he-fan-hua-neng-li-de-zong-he/</url>
+      
+        <content type="html"><![CDATA[<h2 id="一、模型的记忆能力与泛化能力"><a href="#一、模型的记忆能力与泛化能力" class="headerlink" title="一、模型的记忆能力与泛化能力"></a>一、模型的记忆能力与泛化能力</h2><p>谷歌2016年提出的Wide&amp;Deep模型,主要思路正如其名，是由单层的Wide部分和多层的Deep部分组成的混合模型。</p><h2 id="二、Wide-amp-Deep模型的结构"><a href="#二、Wide-amp-Deep模型的结构" class="headerlink" title="二、Wide&amp;Deep模型的结构"></a>二、Wide&amp;Deep模型的结构</h2><p>待完善内容！</p><h2 id="三、Wide-amp-Deep模型的进化"><a href="#三、Wide-amp-Deep模型的进化" class="headerlink" title="三、Wide&amp;Deep模型的进化"></a>三、Wide&amp;Deep模型的进化</h2><p>Deep&amp;Cross模型</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 深度学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Wide&amp;Deep模型 </tag>
             
         </tags>
       
