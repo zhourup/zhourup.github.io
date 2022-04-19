@@ -531,7 +531,7 @@
 <p>运行项目，就可以访问到项目的SwaggerAPI文档了！</p>
 <p>访问地址为：<a href="http://localhost:8500/swagger-ui.html" target="_blank" rel="noopener">http://localhost:8500/swagger-ui.html</a>        8500是你项目对应的工程的启动端口</p>
 <p>效果如下：</p>
-<p><img src="D:%5Cstudy%5Cblog-plus%5Csource_posts%5C%E9%9A%8F%E7%AC%94%5Cimg%5Cimg1.png" alt="img1"></p>
+<p><img src="https://github.com/zhourup/zhourup.github.io/blob/master/2022/04/18/sui-bi/springboot-zheng-he-swagger/img1.png" alt="img1"></p>
 <h2 id="二、配置Swagger信息"><a href="#二、配置Swagger信息" class="headerlink" title="二、配置Swagger信息"></a>二、配置Swagger信息</h2><p>要想替换Swagger默认信息，可以配置Swagger的docket的bean实例来替换默认的，只需将SwaggerConfig修改为如下：</p>
 <pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">import</span> org<span class="token punctuation">.</span>springframework<span class="token punctuation">.</span>context<span class="token punctuation">.</span>annotation<span class="token punctuation">.</span>Bean<span class="token punctuation">;</span>
 <span class="token keyword">import</span> org<span class="token punctuation">.</span>springframework<span class="token punctuation">.</span>context<span class="token punctuation">.</span>annotation<span class="token punctuation">.</span>Configuration<span class="token punctuation">;</span>
@@ -576,7 +576,7 @@
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>重启项目，效果如下：</p>
-<p><img src="D:%5Cstudy%5Cblog-plus%5Csource_posts%5C%E9%9A%8F%E7%AC%94%5Cimg%5Cimg2.png" alt="img2"></p>
+<p><img src="https://github.com/zhourup/zhourup.github.io/blob/master/2022/04/18/sui-bi/springboot-zheng-he-swagger/img2.png" alt="img2"></p>
 <h2 id="三、配置扫描接口及开关"><a href="#三、配置扫描接口及开关" class="headerlink" title="三、配置扫描接口及开关"></a>三、配置扫描接口及开关</h2><p>在docket的bean实例中可以通过apis的RequestHandlerSelectors来配置要扫描接口的方式</p>
 <p>​    basePackage：指定要扫描的包</p>
 <p>​    any()：扫描全部</p>

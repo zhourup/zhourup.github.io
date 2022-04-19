@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/zhourup/"/>
-  <updated>2022-04-19T03:25:20.643Z</updated>
+  <updated>2022-04-19T03:40:45.975Z</updated>
   <id>https://github.com/zhourup/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://github.com/zhourup/2022/04/18/sui-bi/springboot-zheng-he-swagger/"/>
     <id>https://github.com/zhourup/2022/04/18/sui-bi/springboot-zheng-he-swagger/</id>
     <published>2022-04-17T16:00:00.000Z</published>
-    <updated>2022-04-19T03:25:20.643Z</updated>
+    <updated>2022-04-19T03:40:45.975Z</updated>
     
     <summary type="html">
     
@@ -100,6 +100,32 @@
   </entry>
   
   <entry>
+    <title>Wide&amp;Deep模型-记忆能力和泛化能力的综合</title>
+    <link href="https://github.com/zhourup/2021/12/07/shen-du-xue-xi/wide-deep-mo-xing-ji-yi-neng-li-he-fan-hua-neng-li-de-zong-he/"/>
+    <id>https://github.com/zhourup/2021/12/07/shen-du-xue-xi/wide-deep-mo-xing-ji-yi-neng-li-he-fan-hua-neng-li-de-zong-he/</id>
+    <published>2021-12-07T01:22:00.000Z</published>
+    <updated>2022-03-18T08:53:51.753Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;一、模型的记忆能力与泛化能力&quot;&gt;&lt;a href=&quot;#一、模型的记忆能力与泛化能力&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="深度学习" scheme="https://github.com/zhourup/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="Wide&amp;Deep模型" scheme="https://github.com/zhourup/tags/Wide-Deep%E6%A8%A1%E5%9E%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>矩阵分解算法-协同过滤的进化</title>
     <link href="https://github.com/zhourup/2021/12/07/shen-du-xue-xi/ju-zhen-fen-jie-suan-fa-xie-tong-guo-lu-de-jin-hua/"/>
     <id>https://github.com/zhourup/2021/12/07/shen-du-xue-xi/ju-zhen-fen-jie-suan-fa-xie-tong-guo-lu-de-jin-hua/</id>
@@ -124,32 +150,6 @@
       <category term="矩阵分解" scheme="https://github.com/zhourup/tags/%E7%9F%A9%E9%98%B5%E5%88%86%E8%A7%A3/"/>
     
       <category term="协同过滤" scheme="https://github.com/zhourup/tags/%E5%8D%8F%E5%90%8C%E8%BF%87%E6%BB%A4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Wide&amp;Deep模型-记忆能力和泛化能力的综合</title>
-    <link href="https://github.com/zhourup/2021/12/07/shen-du-xue-xi/wide-deep-mo-xing-ji-yi-neng-li-he-fan-hua-neng-li-de-zong-he/"/>
-    <id>https://github.com/zhourup/2021/12/07/shen-du-xue-xi/wide-deep-mo-xing-ji-yi-neng-li-he-fan-hua-neng-li-de-zong-he/</id>
-    <published>2021-12-07T01:22:00.000Z</published>
-    <updated>2022-03-18T08:53:51.753Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;一、模型的记忆能力与泛化能力&quot;&gt;&lt;a href=&quot;#一、模型的记忆能力与泛化能力&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="深度学习" scheme="https://github.com/zhourup/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="Wide&amp;Deep模型" scheme="https://github.com/zhourup/tags/Wide-Deep%E6%A8%A1%E5%9E%8B/"/>
     
   </entry>
   
