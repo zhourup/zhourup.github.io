@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/zhourup/"/>
-  <updated>2022-03-18T09:09:59.295Z</updated>
+  <updated>2022-04-19T03:25:20.643Z</updated>
   <id>https://github.com/zhourup/</id>
   
   <author>
@@ -17,9 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>SpringBoot整合Swagger</title>
+    <link href="https://github.com/zhourup/2022/04/18/sui-bi/springboot-zheng-he-swagger/"/>
+    <id>https://github.com/zhourup/2022/04/18/sui-bi/springboot-zheng-he-swagger/</id>
+    <published>2022-04-17T16:00:00.000Z</published>
+    <updated>2022-04-19T03:25:20.643Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Swagger是一种和语言无关的规范和框架，用于定义服务接口，主要用于描述RESTful的API。它专注于为API创建优秀的文档和客户端库。支持Swagger的API可以为API方法生成交互式的文档，让用户可以通过以可视化的方式试验，查看请求和响应、头文件和返回代码，从而发
+        
+      
+    
+    </summary>
+    
+      <category term="随笔" scheme="https://github.com/zhourup/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="Swagger" scheme="https://github.com/zhourup/tags/Swagger/"/>
+    
+  </entry>
+  
+  <entry>
     <title>设计模式</title>
-    <link href="https://github.com/zhourup/2022/01/10/ruan-jia-jia-gou/she-ji-mo-shi/"/>
-    <id>https://github.com/zhourup/2022/01/10/ruan-jia-jia-gou/she-ji-mo-shi/</id>
+    <link href="https://github.com/zhourup/2022/01/10/ruan-jian-jia-gou/she-ji-mo-shi/"/>
+    <id>https://github.com/zhourup/2022/01/10/ruan-jian-jia-gou/she-ji-mo-shi/</id>
     <published>2022-01-10T14:01:00.000Z</published>
     <updated>2022-03-18T09:09:59.295Z</updated>
     
